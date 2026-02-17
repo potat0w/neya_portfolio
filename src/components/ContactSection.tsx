@@ -4,7 +4,6 @@ import SectionHeader from "./SectionHeader";
 
 const links = [
   { icon: Mail, label: "kahonbintezaman@gmail.com", href: "mailto:kahonbintezaman@gmail.com" },
-  { icon: Phone, label: "+8801609451247", href: "tel:+8801609451247" },
   { icon: Github, label: "github.com/kaho0", href: "https://github.com/kaho0" },
   { icon: Linkedin, label: "linkedin.com/in/kahon-binte-zaman-9414432b4", href: "https://www.linkedin.com/in/kahon-binte-zaman-9414432b4/" },
   { icon: Twitter, label: "x.com/Kahoo_z", href: "https://x.com/Kahoo_z" },
