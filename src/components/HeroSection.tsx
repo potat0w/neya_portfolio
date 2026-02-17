@@ -20,8 +20,10 @@ const HeroSection = () => {
           className="text-6xl md:text-8xl font-bold tracking-tight leading-[0.9] mb-8"
         >
           Kahon
-          <br />
-          Binte Zaman
+          <span className="hidden lg:inline">
+            <br />
+            Binte Zaman
+          </span>
         </motion.h1>
 
         <motion.p

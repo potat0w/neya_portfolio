@@ -18,7 +18,7 @@ const Navbar = () => {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50"
+      className="fixed top-4 right-4 z-50"
     >
       <div className="bg-card/80 backdrop-blur-xl border border-border rounded-full px-4 py-2.5 flex items-center gap-1">
         <a
@@ -26,7 +26,10 @@ const Navbar = () => {
           className="flex items-center gap-2 px-3 py-1 font-mono text-sm text-foreground hover:text-link-hover transition-colors"
         >
           <Home size={14} />
-          <span className="font-medium">Kahon Binte Zaman</span>
+          <span className="font-medium">
+            <span className="inline">Kahon</span>
+            <span className="hidden lg:inline"> Binte Zaman</span>
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-0.5 ml-2">
