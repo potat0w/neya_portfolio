@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 
 const stack = [
-  { category: "Languages", items: ["TypeScript", "Python", "Go", "Lua", "C", "C#"] },
-  { category: "Frontend", items: ["React", "Astro", "Vite", "HTML/CSS"] },
-  { category: "Backend and Tools", items: ["FastAPI", "Solar2D", "CMake", "Git"] },
-  { category: "Infrastructure", items: ["Linux", "Docker", "GitHub Actions", "Vercel"] },
+  { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "HTML/CSS", "JavaScript"] },
+  { category: "Backend", items: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"] },
+  { category: "Database", items: ["MongoDB", "PostgreSQL", "MySQL", "Redis"] },
+  { category: "DevOps & Tools", items: ["Git", "Vercel", "Docker", "VS Code", "Postman"] },
 ];
 
 const StackSection = () => {
   return (
     <section id="stack" className="py-24 section-container">
-      <SectionHeader number="04" title="stack" />
+      <SectionHeader number="03" title="stack" />
       <div className="section-divider pt-8 space-y-6">
         {stack.map((group, i) => (
           <motion.div

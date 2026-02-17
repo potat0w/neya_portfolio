@@ -1,17 +1,19 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, Twitter } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 
 const links = [
-  { icon: Mail, label: "tribejustice35@gmail.com", href: "mailto:tribejustice35@gmail.com" },
-  { icon: Github, label: "github.com/Aarav2709", href: "https://github.com/Aarav2709" },
-  { icon: Linkedin, label: "linkedin.com/in/aarav2709", href: "https://linkedin.com/in/aarav2709" },
+  { icon: Mail, label: "kahonbintezaman@gmail.com", href: "mailto:kahonbintezaman@gmail.com" },
+  { icon: Phone, label: "+8801609451247", href: "tel:+8801609451247" },
+  { icon: Github, label: "github.com/kaho0", href: "https://github.com/kaho0" },
+  { icon: Linkedin, label: "linkedin.com/in/kahon-binte-zaman-9414432b4", href: "https://www.linkedin.com/in/kahon-binte-zaman-9414432b4/" },
+  { icon: Twitter, label: "x.com/Kahoo_z", href: "https://x.com/Kahoo_z" },
 ];
 
 const ContactSection = () => {
   return (
     <section id="contact" className="py-24 pb-32 section-container">
-      <SectionHeader number="06" title="contact" />
+      <SectionHeader number="05" title="contact" />
       <div className="section-divider pt-8">
         <motion.p
           initial={{ opacity: 0, y: 10 }}

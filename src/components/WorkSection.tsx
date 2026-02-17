@@ -14,52 +14,76 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "HyPrism",
-    description: "Multiplatform Hytale launcher written in Go. Handles mod lifecycle management, version switching, and automated updates across Windows, macOS, and Linux.",
-    tags: ["go"],
-    source: "https://github.com/Aarav2709/Hyprism",
-    live: "https://yyyumeniku.github.io/hyprism-site/",
-    stars: 470,
+    title: "OneEarth",
+    description: "AI-powered platform for wildlife conservation with species data and a cruelty-free shopping assistant. Winner of AnimalHack 2025.",
+    tags: ["ai", "conservation", "web"],
+    source: "https://github.com/kaho0/OneEarth",
+    live: "https://animal-rho-six.vercel.app/",
     featured: true,
   },
   {
-    title: "Needlelight",
-    description: "Rewrite of the Lumafly mod assistant. Faster startup, reduced memory footprint, and native cross platform tooling built with C# and Python.",
-    tags: ["c#", "python"],
-    source: "https://github.com/Aarav2709/Needlelight",
-    stars: 55,
+    title: "VerdictAI",
+    description: "AI-driven legal assistant offering real-time Q&A on Bangladesh law using a Gemini and FAISS backend.",
+    tags: ["ai", "legal", "gemini"],
+    source: "https://github.com/kaho0/VerdictAI",
+    live: "https://verdict-ai-psi.vercel.app/",
     featured: true,
   },
   {
-    title: "CyberQuestJR",
-    description: "Cybersecurity education platform with interactive games and quizzes. React frontend, FastAPI backend. Placed 4th globally at Student HackPad.",
-    tags: ["react", "fastapi", "typescript"],
-    source: "https://github.com/Aarav2709/CyberQuestJR",
-    live: "https://cyberquestjr.vercel.app/",
-    stars: 4,
+    title: "Meloo",
+    description: "Music streaming platform with a clean interface and smart recommendations powered by Gemini API.",
+    tags: ["music", "streaming", "gemini"],
+    source: "https://github.com/kaho0/Meloo",
+    live: "https://melobo.vercel.app/",
   },
   {
-    title: "Fun Run 2: Reborn",
-    description: "Ground up remake of the multiplayer racing game in Solar2D. Custom physics, local multiplayer networking, character progression system, and power up engine.",
-    tags: ["lua", "solar2d"],
-    source: "https://github.com/Aarav2709/FR2-Reborn",
-    stars: 8,
+    title: "Attendly",
+    description: "QR-Based Attendance Management System with React, TypeScript, Node.js, PostgreSQL, JWT authentication, QR check-ins, and role-based dashboards.",
+    tags: ["attendance", "qr", "fullstack"],
+    source: "https://github.com/potat0w/attendly",
+    live: "https://dbms-project-mocha-eta.vercel.app/",
   },
   {
-    title: "KubeTimr",
-    description: "Keyboard first, offline first speedcube timer. WCA inspection mode, seeded scramble generation, statistical analysis, and training splits.",
-    tags: ["typescript", "react", "vite"],
-    source: "https://github.com/Aarav2709/KubeTimr",
-    live: "https://kubetimr.vercel.app/",
-    stars: 3,
+    title: "AquaFin",
+    description: "E-commerce platform for aquatic products with authentication, cart, reviews, and real-time updates.",
+    tags: ["ecommerce", "react", "nodejs"],
+    source: "https://github.com/kaho0/AquaFin",
+    live: "https://aqua-fin-34ev.vercel.app/",
   },
   {
-    title: "Typeconomy",
-    description: "Typing driven economy game. Real time WPM tracking, upgrade tree, and idle automation mechanics. React and Vite.",
-    tags: ["react", "vite"],
-    source: "https://github.com/Nathan5471/typeconomy",
-    live: "https://typeconomy.vercel.app/",
-    stars: 14,
+    title: "My Vid",
+    description: "A YouTube-inspired app with video search, categories, and smooth playback for an engaging viewing experience.",
+    tags: ["video", "react", "streaming"],
+    source: "https://github.com/kaho0/My-Vid",
+    live: "https://you-vid-xi.vercel.app/",
+  },
+  {
+    title: "Voyage Vista",
+    description: "Travel booking platform that lets users explore destinations, view details, and book trips with ease.",
+    tags: ["travel", "booking", "react"],
+    source: "https://github.com/kaho0/Voyage-vista",
+    live: "https://vista-omega.vercel.app/",
+  },
+  {
+    title: "Gradiaaa",
+    description: "Full-stack web app that enhances communication and resource sharing between students and teachers.",
+    tags: ["education", "mern", "socket"],
+    source: "https://github.com/kaho0/Gradiaaa",
+    live: "https://gradiaaa.vercel.app/",
+  },
+  {
+    title: "Skylaa",
+    description: "Real-time chat application built with the MERN stack and Socket.IO for instant communication.",
+    tags: ["chat", "mern", "socketio"],
+    source: "https://github.com/kaho0/Skylaa",
+    live: "https://skyla-7t80.onrender.com/",
+  },
+  {
+    title: "Flow",
+    description: "A modern web application with sleek UI and responsive design.",
+    tags: ["ui", "react", "modern"],
+    source: "https://github.com/kaho0/Aura",
+    live: "https://aura-nu.vercel.app/",
   },
 ];
 
@@ -131,7 +155,7 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
 const WorkSection = () => {
   return (
     <section id="work" className="py-24 section-container">
-      <SectionHeader number="03" title="featured work" />
+      <SectionHeader number="02" title="featured work" />
       <div className="section-divider pt-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project, i) => (

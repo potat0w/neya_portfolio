@@ -4,7 +4,6 @@ import { Home, Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Highlights", href: "#highlights" },
   { label: "Work", href: "#work" },
   { label: "Stack", href: "#stack" },
   { label: "Building", href: "#building" },
@@ -27,7 +26,7 @@ const Navbar = () => {
           className="flex items-center gap-2 px-3 py-1 font-mono text-sm text-foreground hover:text-link-hover transition-colors"
         >
           <Home size={14} />
-          <span className="font-medium">Aarav Gupta</span>
+          <span className="font-medium">Kahon Binte Zaman</span>
         </a>
 
         <div className="hidden md:flex items-center gap-0.5 ml-2">
@@ -40,6 +39,14 @@ const Navbar = () => {
               {item.label}
             </a>
           ))}
+          <a
+            href="/Kahon (3).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1.5 text-sm font-mono text-muted-foreground hover:text-foreground transition-colors rounded-full hover:bg-accent"
+          >
+            Resume
+          </a>
         </div>
 
         <button
@@ -66,6 +73,15 @@ const Navbar = () => {
               {item.label}
             </a>
           ))}
+          <a
+            href="/Kahon (3).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileOpen(false)}
+            className="px-4 py-2 text-sm font-mono text-muted-foreground hover:text-foreground hover:bg-accent rounded-lg transition-colors"
+          >
+            Resume
+          </a>
         </motion.div>
       )}
     </motion.nav>

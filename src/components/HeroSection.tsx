@@ -10,7 +10,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3 }}
           className="font-mono text-xs tracking-[0.3em] uppercase text-muted-foreground mb-6"
         >
-          Student Dude
+          Full Stack Developer
         </motion.p>
 
         <motion.h1
@@ -19,9 +19,9 @@ const HeroSection = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-6xl md:text-8xl font-bold tracking-tight leading-[0.9] mb-8"
         >
-          aarav
+          Kahon
           <br />
-          gupta
+          Binte Zaman
         </motion.h1>
 
         <motion.p
@@ -30,7 +30,7 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-md leading-relaxed mb-8"
         >
-          I build developer tools, game engines, and open source infrastructure.
+          Learning machine learning algorithms and AI ML
         </motion.p>
 
         <motion.div
@@ -40,9 +40,9 @@ const HeroSection = () => {
           className="flex gap-3"
         >
           {[
-            { label: "mail", href: "mailto:tribejustice35@gmail.com" },
-            { label: "github", href: "https://github.com/Aarav2709" },
-            { label: "linkedin", href: "https://linkedin.com/in/aarav2709" },
+            { label: "resume", href: "/Kahon (3).pdf" },
+            { label: "github", href: "https://github.com/kaho0" },
+            { label: "linkedin", href: "https://www.linkedin.com/in/kahon-binte-zaman-9414432b4/" },
           ].map((link) => (
             <a
               key={link.label}

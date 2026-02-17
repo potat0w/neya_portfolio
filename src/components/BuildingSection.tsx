@@ -3,23 +3,15 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    name: "HyPrism",
-    description: "Multiplatform Hytale launcher with integrated mod management. Written in Go.",
-  },
-  {
-    name: "FR2: Reborn",
-    description: "Complete multiplayer racing game remake. Built with Solar2D and Lua.",
-  },
-  {
-    name: "Needlelight",
-    description: "Refined Lumafly assistant with cross platform tooling. Built with C# and Python.",
+    name: "ML/DL Learning Journey",
+    description: "Currently diving deep into Machine Learning and Deep Learning algorithms, exploring neural networks, computer vision, and natural language processing.",
   },
 ];
 
 const BuildingSection = () => {
   return (
     <section id="building" className="py-24 section-container">
-      <SectionHeader number="05" title="currently building" />
+      <SectionHeader number="04" title="currently learning" />
       <div className="section-divider pt-8 space-y-4">
         {projects.map((project, i) => (
           <motion.div
